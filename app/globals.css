@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-eyena-blue: #5BC8F5;
+  --color-eyena-dark: #0A0A0A;
+  --color-eyena-card: #0f1117;
+}
+
+@keyframes eyeScan {
+  0%   { transform: translate(0px, 0px); }
+  20%  { transform: translate(22px, -10px); }
+  40%  { transform: translate(-18px, 14px); }
+  60%  { transform: translate(12px, -18px); }
+  80%  { transform: translate(-8px, 8px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes glowPulse {
+  0%, 100% { filter: drop-shadow(0 0 12px rgba(91, 200, 245, 0.5)); }
+  50%       { filter: drop-shadow(0 0 30px rgba(91, 200, 245, 0.9)); }
+}
+
+@keyframes scanLine {
+  0%   { transform: translateY(-100%); opacity: 0; }
+  10%  { opacity: 0.6; }
+  90%  { opacity: 0.6; }
+  100% { transform: translateY(200%); opacity: 0; }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-14px); }
+}
+
+@keyframes blink {
+  0%, 90%, 100% { transform: scaleY(1); }
+  95%            { transform: scaleY(0.05); }
+}
+
+.eye-scan { animation: eyeScan 5s ease-in-out infinite; }
+.glow-eye { animation: glowPulse 2.5s ease-in-out infinite; }
+.scan-line-anim { animation: scanLine 3s linear infinite; }
+.float-anim { animation: floatY 4s ease-in-out infinite; }
+.blink-anim { animation: blink 6s ease-in-out infinite; }
+
+.glass {
+  background: rgba(15, 17, 23, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(91, 200, 245, 0.12);
+}
+
+.glass-light {
+  background: rgba(91, 200, 245, 0.06);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(91, 200, 245, 0.18);
+}
+
+.neon-glow {
+  box-shadow: 0 0 20px rgba(91, 200, 245, 0.35), 0 0 50px rgba(91, 200, 245, 0.12);
+}
+
+.neon-text {
+  text-shadow: 0 0 25px rgba(91, 200, 245, 0.75);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(91, 200, 245, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(91, 200, 245, 0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
