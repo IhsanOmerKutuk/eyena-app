@@ -61,7 +61,7 @@ export default function Navbar() {
             href="#bayi"
             className="px-5 py-2 text-sm font-semibold text-[#0A0A0A] bg-[#5BC8F5] rounded-xl hover:bg-[#5BC8F5]/85 transition-all duration-200 cursor-pointer shadow-[0_0_20px_rgba(91,200,245,0.45)]"
           >
-            Bayi Ol
+            Çözüm Ortaklığı
           </a>
         </div>
 
@@ -107,7 +107,7 @@ export default function Navbar() {
                   href="#bayi"
                   className="py-3 text-center text-[#0A0A0A] bg-[#5BC8F5] rounded-xl font-semibold cursor-pointer text-sm"
                 >
-                  Bayi Ol
+                  Çözüm Ortaklığı
                 </a>
               </div>
             </div>

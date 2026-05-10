@@ -115,20 +115,6 @@ export default function Audiences() {
                   {current.title}
                 </h3>
                 <p className="text-gray-400 leading-relaxed mb-8">{current.description}</p>
-                <div className="flex flex-wrap gap-3">
-                  <a
-                    href="#iletisim"
-                    className="px-6 py-3 border border-[#5BC8F5]/40 text-[#5BC8F5] rounded-xl hover:bg-[#5BC8F5]/10 transition-all duration-200 cursor-pointer text-sm font-medium"
-                  >
-                    Bize Ulaşın
-                  </a>
-                  <a
-                    href="#bayi"
-                    className="px-6 py-3 bg-[#5BC8F5] text-[#0A0A0A] rounded-xl hover:bg-[#5BC8F5]/85 transition-all duration-200 cursor-pointer text-sm font-semibold"
-                  >
-                    Bayi Ol
-                  </a>
-                </div>
               </div>
 
               {/* Right: benefit list */}

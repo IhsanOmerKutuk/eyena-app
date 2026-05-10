@@ -43,13 +43,13 @@ export default function DealerForm() {
         >
           <div className="inline-flex items-center gap-2 glass-light rounded-full px-4 py-2 mb-4">
             <Building2 className="text-[#5BC8F5]" size={15} />
-            <span className="text-[#5BC8F5] text-sm font-medium tracking-wide">Bayi Başvurusu</span>
+            <span className="text-[#5BC8F5] text-sm font-medium tracking-wide">Çözüm Ortaklığı Başvurusu</span>
           </div>
           <h2 className="font-[Orbitron] text-3xl md:text-4xl font-bold text-white mb-4">
-            Bayi Ağımıza <span className="text-[#5BC8F5]">Katılın</span>
+            Çözüm Ortaklığına <span className="text-[#5BC8F5]">Katılın</span>
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto text-lg leading-relaxed">
-            Türkiye genelinde EYENA bayisi olmak için başvurun. Uzman ekibimiz en
+            Türkiye genelinde EYENA çözüm ortağı olmak için başvurun. Uzman ekibimiz en
             kısa sürede sizinle iletişime geçecektir.
           </p>
         </motion.div>
@@ -141,7 +141,7 @@ export default function DealerForm() {
                 </label>
                 <textarea
                   id="d-msg" rows={4}
-                  placeholder="Bayi olmak istediğiniz bölge, kurumunuz hakkında kısa bilgi..."
+                  placeholder="Çözüm ortağı olmak istediğiniz bölge, kurumunuz hakkında kısa bilgi..."
                   value={form.message} onChange={set("message")}
                   className={inputClass + " resize-none"}
                 />

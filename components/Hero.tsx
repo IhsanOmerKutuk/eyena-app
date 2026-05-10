@@ -217,7 +217,7 @@ export default function Hero() {
                 href="#bayi"
                 className="flex items-center gap-2 px-8 py-4 bg-[#5BC8F5] text-[#0A0A0A] font-semibold rounded-xl hover:bg-[#5BC8F5]/85 transition-all duration-200 shadow-[0_0_30px_rgba(91,200,245,0.5)] cursor-pointer"
               >
-                Bayi Ol
+                Çözüm Ortaklığı
                 <ArrowRight size={18} />
               </a>
               <a

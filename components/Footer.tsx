@@ -5,7 +5,7 @@ const footerLinks = [
   { label: "Nasıl Çalışır", href: "#nasil-calisir" },
   { label: "Hedef Kitle", href: "#hedef-kitle" },
   { label: "Ortaklık", href: "#ortaklik" },
-  { label: "Bayi Ol", href: "#bayi" },
+  { label: "Çözüm Ortaklığı", href: "#bayi" },
   { label: "İletişim", href: "#iletisim" },
 ];
 

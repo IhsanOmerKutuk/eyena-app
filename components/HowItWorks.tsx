@@ -439,26 +439,6 @@ export default function HowItWorks() {
           </div>
         </div>
 
-        {/* CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.5, delay: 0.6 }}
-          className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-4"
-        >
-          <a
-            href="#bayi"
-            className="px-8 py-4 bg-[#5BC8F5] text-[#0A0A0A] font-semibold rounded-xl hover:bg-[#5BC8F5]/85 transition-all duration-200 shadow-[0_0_25px_rgba(91,200,245,0.4)] cursor-pointer"
-          >
-            Bayi Ol
-          </a>
-          <a
-            href="#iletisim"
-            className="px-8 py-4 border border-[#5BC8F5]/40 text-[#5BC8F5] font-medium rounded-xl hover:bg-[#5BC8F5]/10 transition-all duration-200 cursor-pointer"
-          >
-            Bize Ulaşın
-          </a>
-        </motion.div>
       </div>
     </section>
   );
