@@ -3,13 +3,13 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const clients = [
-  { name: "Google",                url: "https://logo.clearbit.com/google.com" },
-  { name: "University of Cambridge", url: "https://logo.clearbit.com/cam.ac.uk" },
-  { name: "P&G",                   url: "https://logo.clearbit.com/pg.com" },
-  { name: "Toyota",                url: "https://logo.clearbit.com/toyota.com" },
-  { name: "Harvard University",    url: "https://logo.clearbit.com/harvard.edu" },
-  { name: "Meta",                  url: "https://logo.clearbit.com/meta.com" },
-  { name: "Unilever",              url: "https://logo.clearbit.com/unilever.com" },
+  { name: "Google",                url: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" },
+  { name: "University of Cambridge", url: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Coat_of_Arms_of_the_University_of_Cambridge.svg" },
+  { name: "P&G",                   url: "https://upload.wikimedia.org/wikipedia/commons/8/85/Procter_%26_Gamble_logo.svg" },
+  { name: "Toyota",                url: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Toyota_logo.svg" },
+  { name: "Harvard University",    url: "https://upload.wikimedia.org/wikipedia/commons/7/70/Harvard_University_logo.svg" },
+  { name: "Meta",                  url: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg" },
+  { name: "Unilever",              url: "https://upload.wikimedia.org/wikipedia/commons/8/87/Unilever_text_logo.svg" },
 ];
 
 export default function Partnership() {
