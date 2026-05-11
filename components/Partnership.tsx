@@ -48,12 +48,15 @@ export default function Partnership() {
           className="flex flex-col items-center mb-16"
         >
           <img
-            src="https://www.tobii.com/siteassets/images/logos/tobii-logo-black.svg"
+            src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Tobii_Logo.png"
             alt="Tobii"
             style={{ height: 72, filter: "brightness(0) invert(1)" }}
             className="object-contain"
           />
-          <div className="mt-6 inline-flex items-center gap-2 glass-light rounded-full px-5 py-2.5">
+          <p className="text-gray-300 text-sm mt-3 tracking-widest uppercase font-light">
+            Powered by Tobii
+          </p>
+          <div className="mt-4 inline-flex items-center gap-2 glass-light rounded-full px-5 py-2.5">
             <span className="w-2 h-2 rounded-full bg-[#5BC8F5] shadow-[0_0_8px_rgba(91,200,245,0.9)]" />
             <span className="text-[#5BC8F5] text-sm font-medium tracking-wide">
               Resmi Teknoloji Ortağı
@@ -88,7 +91,7 @@ export default function Partnership() {
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.4, delay: 0.4 + i * 0.06 }}
                 style={{ height: 40 }}
-                className="object-contain grayscale opacity-35 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                className="object-contain grayscale brightness-150 opacity-65 hover:grayscale-0 hover:brightness-100 hover:opacity-100 transition-all duration-300"
               />
             ))}
           </div>
