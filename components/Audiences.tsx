@@ -108,8 +108,13 @@ export default function Audiences() {
             <div className="grid md:grid-cols-2 gap-10 items-start">
               {/* Left */}
               <div>
-                <div className="w-14 h-14 rounded-2xl bg-[#5BC8F5]/10 border border-[#5BC8F5]/25 flex items-center justify-center mb-6">
-                  <current.icon className="text-[#5BC8F5]" size={26} />
+                <div className="relative w-full h-44 rounded-2xl overflow-hidden mb-6 border border-white/5" style={{ background: '#06080d' }}>
+                  {/* Red blob */}
+                  <div className="heat-blob-1 absolute rounded-full" style={{ top: '-20%', left: '-10%', width: '75%', height: '140%', background: 'rgba(230, 40, 40, 0.62)', filter: 'blur(48px)' }} />
+                  {/* Green blob */}
+                  <div className="heat-blob-2 absolute rounded-full" style={{ top: '-10%', left: '25%', width: '65%', height: '130%', background: 'rgba(30, 210, 80, 0.55)', filter: 'blur(44px)' }} />
+                  {/* Blue blob */}
+                  <div className="heat-blob-3 absolute rounded-full" style={{ top: '-15%', left: '50%', width: '70%', height: '135%', background: 'rgba(40, 90, 255, 0.62)', filter: 'blur(50px)' }} />
                 </div>
                 <h3 className="font-[Orbitron] text-2xl font-bold text-white mb-4">
                   {current.title}
