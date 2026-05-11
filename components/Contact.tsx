@@ -1,7 +1,7 @@
 "use client";
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { Mail, Phone, MapPin, Send, User, MessageSquare, Clock, CheckCircle2 } from "lucide-react";
+import { Mail, MapPin, Send, User, MessageSquare, Clock, CheckCircle2 } from "lucide-react";
 
 const inputClass =
   "w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-[#5BC8F5]/55 focus:bg-[#5BC8F5]/5 transition-all duration-200 text-sm";
@@ -22,9 +22,8 @@ export default function Contact() {
 
   const info = [
     { icon: Mail, label: "E-posta", value: "info@eyena.com.tr" },
-    { icon: Phone, label: "Telefon", value: "+90 (212) XXX XX XX" },
-    { icon: MapPin, label: "Adres", value: "İstanbul, Türkiye" },
-    { icon: Clock, label: "Çalışma Saatleri", value: "Pzt–Cum: 09:00–18:00" },
+    { icon: MapPin, label: "Adres", value: "İstanbul, Türkiye (Sanal Ofis)" },
+    { icon: Clock, label: "Çalışma Saatleri", value: "Profesyonel ekibimize 7/24 ulaşabilirsiniz." },
   ];
 
   return (
@@ -42,7 +41,7 @@ export default function Contact() {
             <span className="text-[#5BC8F5] text-sm font-medium tracking-wide">İletişim</span>
           </div>
           <h2 className="font-[Orbitron] text-3xl md:text-4xl font-bold text-white mb-4">
-            Bizimle <span className="text-[#5BC8F5]">İletişime</span> Geçin
+            Bizimle <span className="text-[#5BC8F5]">Kontak</span> Kurun
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto text-lg leading-relaxed">
             Sorularınız, demo talepleriniz ve her türlü konuda uzman ekibimiz yanınızda.

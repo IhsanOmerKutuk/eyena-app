@@ -46,7 +46,7 @@ export default function DealerForm() {
             <span className="text-[#5BC8F5] text-sm font-medium tracking-wide">Çözüm Ortaklığı Başvurusu</span>
           </div>
           <h2 className="font-[Orbitron] text-3xl md:text-4xl font-bold text-white mb-4">
-            Çözüm Ortaklığına <span className="text-[#5BC8F5]">Katılın</span>
+            Son Teknolojiyi <span className="text-[#5BC8F5]">Yakalayın!</span>
           </h2>
           <p className="text-gray-400 max-w-xl mx-auto text-lg leading-relaxed">
             Türkiye genelinde EYENA çözüm ortağı olmak için başvurun. Uzman ekibimiz en
