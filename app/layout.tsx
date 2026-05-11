@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SplashScreen from "@/components/SplashScreen";
+import CursorHeatmap from "@/components/CursorHeatmap";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         className="bg-[#0A0A0A] text-white antialiased"
         style={{ fontFamily: "var(--font-inter), Inter, sans-serif" }}
       >
+        <CursorHeatmap />
         <SplashScreen />
         {children}
       </body>
