@@ -258,10 +258,9 @@ function MebLogoAnimation() {
   return (
     <div className="mt-5 flex flex-col items-center gap-3">
       <motion.img
-        src="https://www.meb.gov.tr/meb_iys_dosyalar/2023_08/31111906_Maarif_logo.png"
-        alt="MEB Maarif Logo"
-        className="h-16 object-contain"
-        style={{ filter: "brightness(0) invert(1)", maxWidth: "75%" }}
+        src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Milli_E%C4%9Fitim_Bakanl%C4%B1%C4%9F%C4%B1_Logo.svg"
+        alt="T.C. Millî Eğitim Bakanlığı Logo"
+        className="h-16 w-16 object-contain"
         animate={{ opacity: [0.7, 1, 0.7] }}
         transition={{ duration: 3, repeat: Infinity }}
       />

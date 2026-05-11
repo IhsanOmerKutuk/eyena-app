@@ -91,7 +91,7 @@ export default function Partnership() {
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.4, delay: 0.4 + i * 0.06 }}
                 style={{ height: 40 }}
-                className="object-contain grayscale brightness-150 opacity-65 hover:grayscale-0 hover:brightness-100 hover:opacity-100 transition-all duration-300"
+                className="object-contain"
               />
             ))}
           </div>
