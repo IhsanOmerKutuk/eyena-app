@@ -108,13 +108,9 @@ export default function Audiences() {
             <div className="grid md:grid-cols-2 gap-10 items-start">
               {/* Left */}
               <div>
-                <div className="relative w-full h-44 rounded-2xl overflow-hidden mb-6 border border-white/5" style={{ background: '#06080d' }}>
-                  {/* Red blob */}
-                  <div className="heat-blob-1 absolute rounded-full" style={{ top: '-20%', left: '-10%', width: '75%', height: '140%', background: 'rgba(230, 40, 40, 0.62)', filter: 'blur(48px)' }} />
-                  {/* Green blob */}
-                  <div className="heat-blob-2 absolute rounded-full" style={{ top: '-10%', left: '25%', width: '65%', height: '130%', background: 'rgba(30, 210, 80, 0.55)', filter: 'blur(44px)' }} />
-                  {/* Blue blob */}
-                  <div className="heat-blob-3 absolute rounded-full" style={{ top: '-15%', left: '50%', width: '70%', height: '135%', background: 'rgba(40, 90, 255, 0.62)', filter: 'blur(50px)' }} />
+                <div className="relative w-full h-44 rounded-2xl overflow-hidden mb-6 border border-white/5">
+                  <div className="heatmap-flow absolute inset-0" />
+                  <div className="absolute inset-0 pointer-events-none" style={{ backgroundImage: 'repeating-linear-gradient(0deg, transparent 0px, transparent 15px, rgba(255,255,255,0.025) 15px, rgba(255,255,255,0.025) 16px)' }} />
                 </div>
                 <h3 className="font-[Orbitron] text-2xl font-bold text-white mb-4">
                   {current.title}
